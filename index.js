@@ -1,9 +1,9 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import cors from 'cors';
-import ProductRoutes from './Routes/ProductRoutes.js';
-import UserRoutes from './Routes/UserRoutes.js'
-import db from "./db.js";
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const ProductRoutes = require('./Routes/ProductRoutes.js');
+const UserRoutes = require('./Routes/UserRoutes.js');
+
 
 const app = express();
 

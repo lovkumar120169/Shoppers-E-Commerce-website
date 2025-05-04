@@ -1,6 +1,4 @@
-
-import Product from '../Models/Product.js';
-import User from '../Models/User.js'
+const User = require('../Models/User.js');
 
 
 const updateUserDetails =  async (req, res) => {

@@ -1,5 +1,4 @@
-import express from 'express';
-import mongoose from 'mongoose';
+const mongoose = require("mongoose");
 
 let ProductSchema = new mongoose.Schema({
 

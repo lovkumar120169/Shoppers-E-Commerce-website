@@ -1,5 +1,6 @@
 
-import Product from '../Models/Product.js'
+const Product = require('../Models/Product.js');
+
 
 const getAllProducts = async (req, res) => {
     try {

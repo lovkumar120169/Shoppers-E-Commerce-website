@@ -1,6 +1,5 @@
-import express, { response } from 'express';
-import User from '../Models/User.js';
-import value from '../controllers/UserController.js';
+const express=require("express");
+const value =require('../controllers/UserController.js');
 
 const router = express.Router();
 

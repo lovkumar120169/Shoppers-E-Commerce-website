@@ -1,8 +1,8 @@
 
-import express from 'express';
+const express=require('express');
+const Product=require('../Models/Product.js');
+const value=require('../controllers/ProductController.js');
 
-import Product from '../Models/Product.js';
-import value from '../controllers/ProductController.js'
 
 const router = express.Router();
 

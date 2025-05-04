@@ -16,6 +16,8 @@ const port = 3000;
 app.use('/product', ProductRoutes)
 app.use('/user',UserRoutes)
 
-app.listen(PORT || 3000, () => {
-    console.log(`Server is listning at ${PORT}`);
-})
+// app.listen(PORT || 3000, () => {
+//     console.log(`Server is listning at ${PORT}`);
+// })
+
+module.exports=app;
